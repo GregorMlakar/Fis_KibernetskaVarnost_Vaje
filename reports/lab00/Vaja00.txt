@@ -1,0 +1,135 @@
+    1  whoami
+    2  pwd
+    3  cd /home/gremla/
+    4  pwd
+    5  mkdir vaje00
+    6  ls
+    7  cdmkdir test
+    8  mkdir test
+    9  ls -l
+   10  touch datoteka.txt
+   11  ls -l
+   12  touch primer
+   13  ls -l
+   14  tmate
+   15  ls -l
+   16  history
+   17  chmod 644 datoteka.txt
+   18  ls -l
+   19  chmod u+x datoteka.txt
+   20  ls -l
+   21  chmod g-r datoteka.txt
+   22  ls -l
+   23  chmod 777 ratoteka.txt
+   24  chmod 777 datoteka.txt
+   25  ls -l
+   26  rm datoteka.txt
+   27  ls -l
+   28  ll
+   29  cd vaja00
+   30  cd vaje00
+   31  nano vaja01
+   32  ls -l
+   33  ls
+   34  ls -l
+   35  clear
+   36  ls -l
+   37  ls
+   38  echo "hello"
+   39  echo "hello" vaja01
+   40  echo "hello" >> vaja01
+   41  cat vaja01
+   42  echo "hello" > vaja01
+   43  cat vaja01
+   44  echo "dodaj na konec" >> vaja01 && cat vaja01
+   45  free
+   46  free -h
+   47  df -h
+   48  top
+   49  ps aux
+   50  ps aux | grep vscode
+   51  ps aux | grep sh
+   52  ps aux | grep tmate
+   53  zip
+   54  clear
+   55  cd..
+   56  cd ..
+   57  ls
+   58  ls -l
+   59  mv primer test
+   60  ls -l
+   61  cd test
+   62  ls
+   63  cd ..
+   64  cd vaje00
+   65  ls -l
+   66  history
+   67  history >> vaha01.txt
+   68  tail vaja01.txt
+   69  history
+   70  tail vaja01.txt
+   71  ls -l
+   72  rm vaja01
+   73  rm vaha01.txt
+   74  ls -l
+   75  cd --
+   76  la -l
+   77  ls -l
+   78  rmd test
+   79  rm -r test
+   80  ls -l
+   81  mv -d vaje00 vaja00
+   82  mv vaje00 vaja00
+   83  ls -l
+   84  cd vaja00
+   85  cd..
+   86  mkdir test
+   87  ls -l
+   88  ls
+   89  rm -d test
+   90  ls -l
+   91  cd..
+   92  cd ..
+   93  ls
+   94  mkdir test
+   95  touch datotekamove.txt
+   96  ls -l
+   97  mv datotekamove.txt test
+   98  ls -l
+   99  cd test
+  100  ls
+  101  rm datoteka.txt
+  102  mv datotekamove.txt datotekaremove.txt
+  103  ls
+  104  rm datotekaremve.txt
+  105  ls
+  106  clear
+  107  ls -l
+  108  rm datotekaremove.txt
+  109  ls
+  110  cd ..
+  111  ls
+  112  rm d test
+  113  rm -d test
+  114  ls
+  115  cd vaja00
+  116  touch history.txt
+  117  cp history.txt h2.txt
+  118  ls
+  119  rm h2.txt
+  120  ls
+  121  whoami
+  122  uname -a
+  123  df -h
+  124  top
+  125  du -ah ~ | sort -rh | head -n 5
+  126  ls
+  127  history
+  128  clear
+  129  ls
+  130  history >> history.txt
+  131  cat history.txt
+  132  nano history.txt
+  133  rm history.txt
+  134  touch vaja00.txt
+  135  history >> vaja00.txt

@@ -1,0 +1,366 @@
+┌──(kali㉿kali)-[~]
+└─$ sherlock gremla             
+Command 'sherlock' not found, but can be installed with:
+sudo apt install sherlock
+Do you want to install it? (N/y)y
+sudo apt install sherlock
+[sudo] password for kali: 
+The following packages were automatically installed and are no longer required:
+  amass-common             libudfread0
+  gir1.2-girepository-2.0  libwireshark18
+  libarmadillo14           libwiretap15
+  libbluray2               libwsutil16
+  libbson-1.0-0t64         libx264-164
+  libdisplay-info2         libyelp0
+  libgdal37                python3-bluepy
+  libgeos3.14.0            python3-click-plugins
+  libgirepository-1.0-1    python3-gpg
+  libgpgmepp6t64           python3-kismetcapturebtgeiger
+  libinstpatch-1.0-2       python3-kismetcapturefreaklabszigbee
+  libjs-jquery-ui          python3-kismetcapturertl433
+  libjs-underscore         python3-kismetcapturertladsb
+  libmongoc-1.0-0t64       python3-kismetcapturertlamr
+  libnet1                  python3-protobuf
+  libobjc-14-dev           python3-pysmi
+  libplacebo349            python3-xlutils
+  libportmidi0             python3-xlwt
+  libradare2-5.0.0t64      python3-zombie-imp
+  librav1e0.7              samba-ad-dc
+  libsqlcipher1            samba-ad-provision
+  libtheoradec1            samba-dsdb-modules
+  libtheoraenc1
+Use 'sudo apt autoremove' to remove them.
+
+Installing:
+  sherlock
+                                                                             
+Installing dependencies:
+  python3-requests-futures  python3-stem
+                                                                             
+Summary:
+  Upgrading: 0, Installing: 3, Removing: 0, Not Upgrading: 0
+  3 not fully installed or removed.
+  Download size: 356 kB
+  Space needed: 1,848 kB / 59.2 GB available
+
+Continue? [Y/n] y
+Get:1 http://mirror.johnnybegood.fr/kali kali-rolling/main amd64 python3-requests-futures all 1.0.2-1 [11.7 kB]
+Get:2 http://kali.mirror.garr.it/kali kali-rolling/main amd64 python3-stem all 1.8.2-1.1 [309 kB]
+Get:3 http://kali.mirror.garr.it/kali kali-rolling/main amd64 sherlock all 0.15.0-1 [35.5 kB]
+Fetched 356 kB in 1s (322 kB/s)      
+Selecting previously unselected package python3-requests-futures.
+(Reading database ... 434130 files and directories currently installed.)
+Preparing to unpack .../python3-requests-futures_1.0.2-1_all.deb ...
+Unpacking python3-requests-futures (1.0.2-1) ...
+Selecting previously unselected package python3-stem.
+Preparing to unpack .../python3-stem_1.8.2-1.1_all.deb ...
+Unpacking python3-stem (1.8.2-1.1) ...
+Selecting previously unselected package sherlock.
+Preparing to unpack .../sherlock_0.15.0-1_all.deb ...
+Unpacking sherlock (0.15.0-1) ...
+Setting up python3-stem (1.8.2-1.1) ...
+update-alternatives: using /usr/bin/python3-tor-prompt to provide /usr/bin/tor-prompt (tor-prompt) in auto mode
+/usr/lib/python3/dist-packages/stem/util/ed25519.py:69: SyntaxWarning: invalid escape sequence '\m'
+  """$= z^{-1} \mod q$, for z != 0"""
+Setting up ptunnel (0.72-4) ...
+Setting up python3-requests-futures (1.0.2-1) ...
+Setting up kali-linux-headless (2025.4.9) ...
+Setting up sherlock (0.15.0-1) ...
+Setting up kali-linux-default (2025.4.9) ...
+Processing triggers for kali-menu (2025.4.2) ...
+Processing triggers for man-db (2.13.1-1) ...
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ sherlock gremla
+Update available! 0.15.0 --> 0.16.0
+https://github.com/sherlock-project/sherlock/releases/tag/v0.16.0
+[*] Checking username gremla on:
+
+[+] 9GAG: https://www.9gag.com/u/gremla
+[+] Archive.org: https://archive.org/details/@gremla
+[+] Bandcamp: https://www.bandcamp.com/gremla
+[+] Bluesky: https://bsky.app/profile/gremla.bsky.social
+[+] CGTrader: https://www.cgtrader.com/gremla
+[+] Chess: https://www.chess.com/member/gremla
+[+] Coders Rank: https://profile.codersrank.io/user/gremla/
+[+] Crowdin: https://crowdin.com/profile/gremla
+[+] Disqus: https://disqus.com/gremla
+[+] Dribbble: https://dribbble.com/gremla
+[+] Duolingo: https://www.duolingo.com/profile/gremla
+[+] Envato Forum: https://forums.envato.com/u/gremla
+[+] GNOME VCS: https://gitlab.gnome.org/gremla
+[+] GaiaOnline: https://www.gaiaonline.com/profiles/gremla
+[+] GeeksforGeeks: https://auth.geeksforgeeks.org/user/gremla
+[+] GitHub: https://www.github.com/gremla
+[+] HackenProof (Hackers): https://hackenproof.com/hackers/gremla
+[+] Imgur: https://imgur.com/user/gremla
+[+] LibraryThing: https://www.librarything.com/profile/gremla
+[+] Lichess: https://lichess.org/@/gremla
+[+] Minecraft: https://api.mojang.com/users/profiles/minecraft/gremla
+[+] NationStates Nation: https://nationstates.net/nation=gremla
+[+] NationStates Region: https://nationstates.net/region=gremla
+[+] Patched: https://patched.sh/User/gremla
+[+] Periscope: https://www.periscope.tv/gremla/
+[+] Rajce.net: https://gremla.rajce.idnes.cz/
+[+] Reddit: https://www.reddit.com/user/gremla
+[+] Roblox: https://www.roblox.com/user.aspx?username=gremla
+[+] Scribd: https://www.scribd.com/gremla
+[+] Smule: https://www.smule.com/gremla
+[+] Snapchat: https://www.snapchat.com/add/gremla
+[+] SoundCloud: https://soundcloud.com/gremla
+[+] Splice: https://splice.com/gremla
+[+] Spotify: https://open.spotify.com/user/gremla
+[+] TikTok: https://www.tiktok.com/@gremla
+[+] Telegram: https://t.me/gremla
+[+] Untappd: https://untappd.com/user/gremla
+[+] VK: https://vk.com/gremla
+[+] VSCO: https://vsco.co/gremla
+[+] Weblate: https://hosted.weblate.org/user/gremla/
+[+] Xbox Gamertag: https://xboxgamertag.com/search/gremla
+[+] YandexMusic: https://music.yandex/users/gremla/playlists
+[+] YouTube: https://www.youtube.com/@gremla
+[+] dailykos: https://www.dailykos.com/user/gremla
+[+] last.fm: https://last.fm/user/gremla
+[+] svidbook: https://www.svidbook.ru/user/gremla
+[+] tumblr: https://gremla.tumblr.com/
+
+[*] Search completed with 47 results
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ history
+    1  history
+    2  filetype:pdf site:gov.si
+    3  history
+    4  rm -f ~/.zsh_history
+    5  touch ~/.zsh_history
+    6  sudo su
+    7  sudo apt-get update
+    8  sudo apt-get -y dist- update
+    9  sudo apt-get -y dist-update
+   10  sudo apt-get -y dist-upgrade
+   11  reboot
+   12  sherlock gremla
+
+----------------
+
+                                                                             
+┌──(maigret-env)─(kali㉿kali)-[~/maigret]
+└─$ maigret gremla   
+[-] Starting a search on top 500 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username gremla on:
+[?] StackOverflow: https://stackoverflow.com/users/filter?search=gremla
+[+] GitHubGist [GitHub]: https://gist.github.com/gremla
+[+] VK: https://vk.com/gremla
+[+] Imgur: https://imgur.com/user/gremla
+        ├─id: 27818025
+        ├─imgur_username: gremLa
+        ├─reputation_count: -19
+        ├─reputation_name: Neutral
+        ├─image: https://i.imgur.com/baIGOS7_d.png?maxwidth=290&fidelity=grand
+        └─created_at: 2015-12-12T11:47:32Z
+[+] Twitch: https://twitchtracker.com/gremla
+[+] ChaturBate: https://chaturbate.com/gremla
+[+] Telegram: https://t.me/gremla
+        └─fullname: А
+[+] Tumblr: https://www.tumblr.com/gremla
+[+] TikTok: https://www.tiktok.com/@gremla
+[+] Chess: https://www.chess.com/member/gremla
+[+] Roblox: https://www.roblox.com/user.aspx?username=gremla
+[+] Xvideos: https://xvideos.com/profiles/gremla
+[+] SoundCloud: https://soundcloud.com/gremla
+        ├─uid: 364790552
+        ├─username: Alma June
+        ├─following_count: 8
+        ├─follower_count: 50
+        ├─is_verified: False
+        ├─image: https://i1.sndcdn.com/avatars-DWSeQYwOLbxIWPL3-1nezWw-large.jpg
+        ├─created_at: 2017-12-13T23:45:50Z
+        ├─gravatar_url: https://gravatar.com/
+        └─gravatar_username: Alma June
+[+] Disqus: https://disqus.com/gremla
+        ├─id: 24498515
+        ├─fullname: Gremla
+        ├─disqus_username: Gremla
+        ├─reputation: 1.232124
+        ├─reputation_label: Average
+        ├─following_count: 0
+        ├─follower_count: 0
+        ├─is_power_contributor: False
+        ├─is_anonymous: False
+        ├─created_at: 2012-04-06T14:27:31
+        ├─upvotes_count: 0
+        ├─forums_count: 0
+        ├─image: https://disqus.com/api/users/avatars/Gremla.jpg
+        ├─forums_following_count: 0
+        ├─is_private: False
+        └─comments_count: 1
+[+] opensea.io: https://opensea.io/accounts/gremla
+[+] GitHub: https://github.com/gremla
+        ├─uid: 33625030
+        ├─image: https://avatars.githubusercontent.com/u/33625030?v=4
+        ├─created_at: 2017-11-13T11:36:54Z
+        ├─follower_count: 0
+        ├─following_count: 0
+        ├─public_gists_count: 0
+        └─public_repos_count: 0
+[+] Duolingo: https://www.duolingo.com/profile/gremla
+[+] OP.GG [LeagueOfLegends] Vietnam: https://www.op.gg/summoners/search?q=gremla&region=vn
+[+] OP.GG [LeagueOfLegends] Middle East: https://www.op.gg/summoners/search?q=gremla&region=me
+[?] community.adobe.com: https://community.adobe.com/t5/forums/searchpage/tab/user?q=gremla
+[+] OP.GG [LeagueOfLegends] Europe Nordic & East: https://www.op.gg/summoners/search?q=gremla&region=eune
+[+] OP.GG [LeagueOfLegends] LAN: https://www.op.gg/summoners/search?q=gremla&region=lan
+[+] OP.GG [LeagueOfLegends] North America: https://www.op.gg/summoners/search?q=gremla&region=na
+[+] OP.GG [LeagueOfLegends] Brazil: https://www.op.gg/summoners/search?q=gremla&region=br
+[+] Scribd: https://www.scribd.com/gremla
+[+] OP.GG [LeagueOfLegends] Japan: https://www.op.gg/summoners/search?q=gremla&region=jp
+[+] OP.GG [LeagueOfLegends] Turkey: https://www.op.gg/summoners/search?q=gremla&region=tr
+[+] OP.GG [LeagueOfLegends] Taiwan: https://www.op.gg/summoners/search?q=gremla&region=tw
+[+] Kaskus: https://www.kaskus.co.id/@gremla
+[+] OP.GG [LeagueOfLegends] LAS: https://www.op.gg/summoners/search?q=gremla&region=las
+[+] OP.GG [LeagueOfLegends] Korea: https://www.op.gg/summoners/search?q=gremla&region=kr
+[+] Dribbble: https://dribbble.com/gremla
+[+] Kaggle: https://www.kaggle.com/gremla
+[+] Rajce.net: https://gremla.rajce.idnes.cz/
+[+] OP.GG [LeagueOfLegends] Singapore: https://www.op.gg/summoners/search?q=gremla&region=sg
+[+] OP.GG [LeagueOfLegends] Thailand: https://www.op.gg/summoners/search?q=gremla&region=th
+[+] OP.GG [LeagueOfLegends] Oceania: https://www.op.gg/summoners/search?q=gremla&region=oce
+[+] Lichess: https://lichess.org/@/gremla
+[+] OP.GG [LeagueOfLegends] Phillippines: https://www.op.gg/summoners/search?q=gremla&region=ph
+[+] OP.GG [LeagueOfLegends] Europe West: https://www.op.gg/summoners/search?q=gremla&region=euw
+[+] Livemaster: https://www.livemaster.ru/gremla
+[+] Bandcamp: https://www.bandcamp.com/gremla
+[+] TechPowerUp: https://www.techpowerup.com/forums/members/?username=gremla
+[+] LiveLib: https://www.livelib.ru/reader/gremla
+[+] last.fm: https://last.fm/user/gremla
+         ├─fullname: GremLa
+         ├─bio: • scrobbling since 11 Oct 2008
+         └─image: https://lastfm.freetls.fastly.net/i/u/avatar170s/f62d923151064634c64cfe9d16f495cc.png
+[+] Gog: https://www.gog.com/u/gremla
+[+] authorSTREAM: http://www.authorstream.com/author/gremla/
+[+] 9GAG: https://www.9gag.com/u/gremla
+[+] forums.serebii.net: https://forums.serebii.net/members/?username=gremla
+[+] AdultFriendFinder: https://adultfriendfinder.com/profile/gremla
+[+] AlternativeTo: https://alternativeto.net/user/gremla
+[+] VSCO: https://vsco.co/gremla
+[+] forums.bulbagarden.net: http://forums.bulbagarden.net/members/?username=gremla
+[+] getmyuni: https://www.getmyuni.com/user/gremla
+[+] Picuki [Instagram]: https://www.picuki.com/profile/gremla
+[+] Picsart: https://picsart.com/u/gremla
+[+] Pandia: https://pandia.ru/user/profile/gremla
+[+] 3ddd: https://3ddd.ru/users/gremla
+[+] hashnode: https://hashnode.com/@gremla
+[+] Smule: https://www.smule.com/gremla
+[+] Krstarica: https://forum.krstarica.com/members/?username=gremla
+[+] Blu-ray: https://forum.blu-ray.com/member.php?username=gremla
+[+] BikeRadar: https://forum.bikeradar.com/profile/gremla
+[+] Untappd: https://untappd.com/user/gremla
+Searching |████████████████████████████████████████| 500/500 [100%] in 35.3s 
+[!] Too many errors of type "Just a moment: bot redirect challenge" (7.0%)
+[!] Too many errors of type "Access denied" (4.0%)
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'gremLa': 'username', 'Alma June': 'username', 'Gremla': 'username'}                                                                  
+[*] Checking username Alma June on:
+[+] Roblox: https://www.roblox.com/user.aspx?username=Alma%20June
+[+] opensea.io: https://opensea.io/accounts/Alma%20June
+[+] OP.GG [LeagueOfLegends] Europe West: https://www.op.gg/summoners/search?q=Alma%20June&region=euw
+[+] OP.GG [LeagueOfLegends] Middle East: https://www.op.gg/summoners/search?q=Alma%20June&region=me
+[+] OP.GG [LeagueOfLegends] Oceania: https://www.op.gg/summoners/search?q=Alma%20June&region=oce
+[+] OP.GG [LeagueOfLegends] LAS: https://www.op.gg/summoners/search?q=Alma%20June&region=las
+[+] OP.GG [LeagueOfLegends] Japan: https://www.op.gg/summoners/search?q=Alma%20June&region=jp
+[+] OP.GG [LeagueOfLegends] Europe Nordic & East: https://www.op.gg/summoners/search?q=Alma%20June&region=eune
+[+] OP.GG [LeagueOfLegends] LAN: https://www.op.gg/summoners/search?q=Alma%20June&region=lan
+[+] OP.GG [LeagueOfLegends] Turkey: https://www.op.gg/summoners/search?q=Alma%20June&region=tr
+[+] OP.GG [LeagueOfLegends] Taiwan: https://www.op.gg/summoners/search?q=Alma%20June&region=tw
+[+] OP.GG [LeagueOfLegends] Russia: https://www.op.gg/summoners/search?q=Alma%20June&region=ru
+[+] OP.GG [LeagueOfLegends] Brazil: https://www.op.gg/summoners/search?q=Alma%20June&region=br
+[+] OP.GG [LeagueOfLegends] Phillippines: https://www.op.gg/summoners/search?q=Alma%20June&region=ph
+[+] OP.GG [LeagueOfLegends] Singapore: https://www.op.gg/summoners/search?q=Alma%20June&region=sg
+[+] Livemaster: https://www.livemaster.ru/Alma%20June
+[+] OP.GG [LeagueOfLegends] Korea: https://www.op.gg/summoners/search?q=Alma%20June&region=kr
+[+] OP.GG [LeagueOfLegends] Thailand: https://www.op.gg/summoners/search?q=Alma%20June&region=th
+[+] OP.GG [LeagueOfLegends] Vietnam: https://www.op.gg/summoners/search?q=Alma%20June&region=vn
+[+] OP.GG [LeagueOfLegends] North America: https://www.op.gg/summoners/search?q=Alma%20June&region=na
+[+] Studfile: https://studfile.net/users/Alma%20June/
+[+] TechPowerUp: https://www.techpowerup.com/forums/members/?username=Alma%20June
+[+] AdultFriendFinder: https://adultfriendfinder.com/profile/Alma%20June
+[+] Kaggle: https://www.kaggle.com/Alma%20June
+[+] authorSTREAM: http://www.authorstream.com/author/Alma%20June/
+[+] forums.serebii.net: https://forums.serebii.net/members/?username=Alma%20June
+[+] AlternativeTo: https://alternativeto.net/user/Alma%20June
+[+] forums.bulbagarden.net: http://forums.bulbagarden.net/members/?username=Alma%20June
+[+] getmyuni: https://www.getmyuni.com/user/Alma%20June
+[+] Picsart: https://picsart.com/u/Alma%20June
+[+] Pandia: https://pandia.ru/user/profile/Alma%20June
+[+] 3ddd: https://3ddd.ru/users/Alma%20June
+[+] hashnode: https://hashnode.com/@Alma%20June
+[+] Blu-ray: https://forum.blu-ray.com/member.php?username=Alma%20June
+[+] BikeRadar: https://forum.bikeradar.com/profile/Alma%20June
+Searching |████████████████████████████████████████| 500/500 [100%] in 45.3s 
+[!] Too many errors of type "Just a moment: bot redirect challenge" (7.0%)
+[!] Too many errors of type "Unsupported username format" (5.0%)
+[!] Too many errors of type "Access denied" (4.0%)
+[!] Too many errors of type "Connecting failure" (4.0%). Try to decrease number of parallel connections (e.g. -n 10)                                      
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {}
+[*] Short text report:
+Search by username gremla returned 62 accounts.
+Found target's other IDs: gremLa, Alma June, Gremla.
+Search by username Alma June returned 35 accounts.
+Extended info extracted from 6 accounts.
+Countries: us, ru, in, vn, br, jp, tr, tw, kr, sg, th, ph, gb, id, cz, at
+Interests (tags): gaming, forum, sharing, photo, music, coding, hobby, reading, tech, documents, dating, news, streaming, messaging, blog, video, porn, discussion, business, books, geosocial, networking
+
+┌──(maigret-env)─(kali㉿kali)-[~/maigret]
+└─$ history
+    1  history
+    2  filetype:pdf site:gov.si
+    3  history
+    4  rm -f ~/.zsh_history
+    5  touch ~/.zsh_history
+    6  sudo su
+    7  sudo apt-get update
+    8  sudo apt-get -y dist- update
+    9  sudo apt-get -y dist-update
+   10  sudo apt-get -y dist-upgrade
+   11  reboot
+   12  sherlock gremla
+   13  history
+   14  pip install migrate
+   15  sherlock --version
+   16  migrate gremla
+   17  pip install maigret
+   18  maigret gremla
+   19  git clone http://github.com/soxoj/maigret.git
+   20  cd maigret
+   21  pip install -r requirements.txt
+   22  maigret gremla
+   23  ls -l
+   24  maigret gremla
+   25  installer.bat
+   26  Installer.bat
+   27  sudo apt install maigret
+   28  cd ..
+   29  sudo apt install maigret
+   30  cd maigret
+   31  pip install -r requirements.txt
+   32  pip3 install -r requirements.txt
+   33  cd ..
+   34  pip install maigret
+   35  mk dir maigret
+   36  cd maigret
+   37  pip install python3-maigret
+   38  git clone http://github.com/soxoj/maigret.git
+   39  ls
+   40  python3 -m vmaigret-env
+   41  source maigret-env/bin/activate
+   42  cd ..
+   43  source maigret-env/bin/activate
+   44  cd maigret
+   45  ls
+   46  python3 -m venv maigret-env
+   47  pip install -r requirements.txt
+   48  source maigret-env/bin/activate
+   49  pip install maigret
+   50  maigret --version
+   51  maigret gremla

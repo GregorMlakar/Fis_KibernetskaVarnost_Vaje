@@ -1,0 +1,158 @@
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ exiftool HMD_Nokia_8.3_5G.jpg
+ExifTool Version Number         : 13.36
+File Name                       : HMD_Nokia_8.3_5G.jpg
+Directory                       : .
+File Size                       : 2.2 MB
+File Modification Date/Time     : 2025:11:27 12:27:26-05:00
+File Access Date/Time           : 2025:11:27 12:51:08-05:00
+File Inode Change Date/Time     : 2025:11:27 12:51:08-05:00
+File Permissions                : -rwxrwx---
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Camera Model Name               : Nokia 8.3 5G
+Software                        : 00WW_3_380_SP02
+Orientation                     : Horizontal (normal)
+F Number                        : 2.2
+Exposure Time                   : 1/1848
+Offset Time Digitized           : +03:00
+Offset Time Original            : +03:00
+Offset Time                     : +03:00
+Focal Length                    : 2.8 mm
+Flash                           : No Flash
+ISO                             : 100
+Metering Mode                   : Center-weighted average
+Date/Time Original              : 2022:08:14 14:12:31
+White Balance                   : Auto
+Aperture Value                  : 2.1
+Exposure Program                : Not Defined
+GPS Img Direction Ref           : Magnetic North
+GPS Latitude Ref                : North
+GPS Img Direction               : 56
+GPS Longitude Ref               : East
+GPS Time Stamp                  : 11:12:32
+GPS Date Stamp                  : 2022:08:14
+Make                            : HMD Global
+JFIF Version                    : 1.01
+Resolution Unit                 : None
+X Resolution                    : 1
+Y Resolution                    : 1
+Image Width                     : 4608
+Image Height                    : 1976
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Aperture                        : 2.2
+Image Size                      : 4608x1976
+Megapixels                      : 9.1
+Shutter Speed                   : 1/1848
+Date/Time Original              : 2022:08:14 14:12:31+03:00
+GPS Date/Time                   : 2022:08:14 11:12:32Z
+GPS Latitude                    : 60 deg 8' 48.14" N
+GPS Longitude                   : 24 deg 54' 24.38" E
+Focal Length                    : 2.8 mm
+GPS Position                    : 60 deg 8' 48.14" N, 24 deg 54' 24.38" E
+Light Value                     : 13.1
+
+------------
+
+──(kali㉿kali)-[~/Desktop]
+└─$ exiftool -all=  HMD_Nokia_8.3_5G.jpg
+    1 image files updated
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ exiftool HMD_Nokia_8.3_5G.jpg       
+ExifTool Version Number         : 13.36
+File Name                       : HMD_Nokia_8.3_5G.jpg
+Directory                       : .
+File Size                       : 2.2 MB
+File Modification Date/Time     : 2025:11:27 12:55:38-05:00
+File Access Date/Time           : 2025:11:27 12:55:39-05:00
+File Inode Change Date/Time     : 2025:11:27 12:55:38-05:00
+File Permissions                : -rwxrwx---
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Image Width                     : 4608
+Image Height                    : 1976
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 4608x1976
+Megapixels                      : 9.1
+    
+------------
+
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ history
+    1  history
+    2  filetype:pdf site:gov.si
+    3  history
+    4  rm -f ~/.zsh_history
+    5  touch ~/.zsh_history
+    6  sudo su
+    7  sudo apt-get update
+    8  sudo apt-get -y dist- update
+    9  sudo apt-get -y dist-update
+   10  sudo apt-get -y dist-upgrade
+   11  reboot
+   12  sherlock gremla
+   13  history
+   14  pip install migrate
+   15  sherlock --version
+   16  migrate gremla
+   17  pip install maigret
+   18  maigret gremla
+   19  git clone http://github.com/soxoj/maigret.git
+   20  cd maigret
+   21  pip install -r requirements.txt
+   22  maigret gremla
+   23  ls -l
+   24  maigret gremla
+   25  installer.bat
+   26  Installer.bat
+   27  sudo apt install maigret
+   28  cd ..
+   29  sudo apt install maigret
+   30  cd maigret
+   31  pip install -r requirements.txt
+   32  pip3 install -r requirements.txt
+   33  cd ..
+   34  pip install maigret
+   35  mk dir maigret
+   36  cd maigret
+   37  pip install python3-maigret
+   38  git clone http://github.com/soxoj/maigret.git
+   39  ls
+   40  python3 -m vmaigret-env
+   41  source maigret-env/bin/activate
+   42  cd ..
+   43  source maigret-env/bin/activate
+   44  cd maigret
+   45  ls
+   46  python3 -m venv maigret-env
+   47  pip install -r requirements.txt
+   48  source maigret-env/bin/activate
+   49  pip install maigret
+   50  maigret --version
+   51  maigret gremla
+   52  history
+   53  exiftool --version
+   54  sudo apt install libimage-exiftools-perl
+   55  sudo apt install libimage-exiftool-perl
+   56  exiftol --version
+   57  exiftool --version
+   58  ls
+   59  cd Desktop
+   60  ls
+   61  exiftool HMD_Nokia_8.3_5G.jpg
+   62  exiftool -all=  HMD_Nokia_8.3_5G.jpg
+   63  exiftool HMD_Nokia_8.3_5G.jpg
+   64  exiftool -all= -overwrite_original HMD_Nokia_8.3_5G.jpg
+   65  exiftool HMD_Nokia_8.3_5G.jpg

@@ -1,0 +1,28 @@
+Kakšna je bila natančna lokacija (koordinate in naslov)?
+	GPS Latitude  : 60 deg 8' 48.14" N
+	GPS Longitude : 24 deg 54' 24.38" E
+	GPS Position  : 60 deg 8' 48.14" N, 24 deg 54' 24.38" E
+	GPS Img Direction Ref : Magnetic North
+	GPS Img Direction    : 56
+
+Kdaj je bila slika posneta?
+	Date/Time Original : 2022:08:14 14:12:31
+	Offset Time Original : +03:00
+	GPS Date Stamp      : 2022:08:14
+	GPS Time Stamp      : 11:12:32
+	GPS Date/Time       : 2022:08:14 11:12:32Z
+
+Katere druge metapodatke si zaznal?
+	Camera Model Name: Nokia 8.3 5G
+	Software / firmware: 00WW_3_380_SP02
+	Image Width / Height: 4608 × 1976
+	Megapixels: 9.1
+	File Size: ~2.2 MB
+
+Kaj vas je presenetilo?
+	Količina informacij
+	Lokalnega
+
+Kaj bi priporočali osebi, ki redno objavlja slike na spletu?
+	Izklop geolokacije
+	Premisli, kaj razkriva sama vsebina slike

@@ -1,0 +1,23 @@
+┌──(kali㉿kali)-[~]
+└─$ history
+    1  sudo apt update
+    2  sudo apt install john
+    3  ls /usr/share/wordlists/
+    4  ls /usr/share/wordlists/rockzou.txt
+    5  ls /usr/share/wordlists/rockyou.txt
+    6  wget https>//githube.com/brannondorsey/naive/hashcat/releases/download/data/rockyou.txt
+    7  wget https://githube.com/brannondorsey/naive/hashcat/releases/download/data/rockyou.txt
+    8  wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+    9  ls /usr/share/wordlists/rockyou.txt
+   10  ls /usr/share/wordlists/
+   11  ls
+   12  mkfile gesla.txt
+   13  make gesla.txt
+   14  touch gesla.txt
+   15  cat << 'EOF' > gesla.txt\nPassword1\nqwerty123\nMy$Strong&Pass2024\nletmein\nSummer2024\nEOF
+   16  n=1; while read pass; do echo "user$n:$(echo -n "$pass" | md5sum | awk '{print $1}')"; n=$((n+1)); done < gesla.txt > hashes.txt
+   17  john --format=raw-md5 --wordlist=rockyou.txt hashes.txt
+   18  john --show hashes.txt
+   19  john --show
+   20  john --show --format=Raw-MD5
+   21  john --show --format=Raw-MD5 hashes.txt

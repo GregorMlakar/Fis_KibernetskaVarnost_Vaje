@@ -1,0 +1,24 @@
+Kako se povečuje ocena varnosti, ko dodajate dolžino?
+	Vsak dodaten znak eksponentno poveča število možnih kombinacij.
+	pri 8-znakovnem geslu ali 12-znakovnem geslu je razlika ogromna saj računalnik rabi neprimerno več časa za bruteforce
+	Dolžina doda največ varnosti. 12+ znakov minimum, 16+ zelo dobro, 20+ odlično (če ni geslo neka fraza iz knjige/filma).
+	Password1 (9 znakov) je kratko in predvsem zelo pogosto. To pomeni, da pade že v prvih sekundah z wordlistom
+
+Kako vplivajo posebni znaki na oceno?
+	povečajo velikost abecede. Namesto npr. 62 (a–z, A–Z, 0–9) znakov imamo 70–90 znakov, kar poveča število kombinacij
+	če jih uporabimo predvidljivo, vedno prvo črko veliko, na koncu pa ! ali 123, to napadalci že vključijo v t. i. rule-based napade. Password1! je še vedno slabo, čeprav ima poseben znak
+	Koristni so, če so na nepredvidljivih mestih, niso samo trivialne zamenjave (a → @, s → $) v znanih besedah
+
+Kako se ocenjuje "passphrase" v primerjavi s klasičnim geslom?
+	Klasično geslo: Kratko, "stisnjeno", npr. P@ssw0rd, My$Strong&Pass2024.
+	Passphrase: Več besed zapored, npr. vlak solata luna pes 93 most.
+	Če so besede izbrane naključno (ne citat, ne pregovor, ne verz iz pesmi), je passphrase lahko zelo močna, ker je dolgo (20+ znakov), lažje zapomnljivo, težja za ugibanje z običajnimi wordlisti
+	Problem je, če je passphrase kot: "let me in please" ker so to standardne besede/fraze in se lahko pojavijo v pametnih wordlistih
+	Dobro narejena passphrase (4–6 naključnih besed) je v praksi pogosto boljša izbira od klasičnega 8–10 znakovnega gesla z "obveznimi" velikimi črkami, številkami in simboli	
+
+Katero geslo bi priporočili za vsakodnevno uporabo in zakaj?
+	Za vsakodnevno uporabo bi priporočil dolgo frazo (passphrase), na primer: "vlak!sneg-kava.most93"
+	Je dovolj dolgo, da jo je zelo težko razbiti z brute-force ali wordlist napadi
+	Je lažje zapomnljivo kot naključni znaki (A$9f!zQ...)
+	Ni tipična fraza (ne citat, ne pregovor)
+	Za vsak pomemben račun (mail, banka, glavne aplikacije) naj bo drugačno geslo, idealno shranjeno v password managerju

@@ -1,0 +1,6 @@
+Zakaj uporabljamo Kali Linux? Kaj je prednost Kali Linux v primerjavi z ostalimi Linux distribucijami?
+	Kali Linux uporabljamo predvsem za penetration testing in etično hekanje, saj vsebuje že vnaprej nameščena orodja za preizkušanje varnosti omrežij, sistemov in aplikacij. 
+	Prednost Kali Linuxa pred drugimi distribucijami je v redno posodobljenih varnostnih orodjih, široki podpori in možnosti uporabe kot live sistem ali virtualka. 
+
+Katere funkcionalnosti in orodja Kali Linuxa so vas najbolj pritegnile?
+	Med orodji so me najbolj pritegnila Nmap za skeniranje omrežij, Searchsploit za iskanje ranljivosti, Dnsenum za pridobivanje DNS informacij in Name-That-Hash za prepoznavanje tipov hash vrednosti, ker omogočajo praktičen vpogled v varnost sistemov.

@@ -1,0 +1,20 @@
+Primerjajte rezultate Sherlocka in Maigreta. Katere razlike ste opazili?
+Število zadetkov:
+	Maigret je našel več kot Sherlock za isti username.
+Globina informacij:
+	Sherlock: samo URL-ji
+	Maigret: URL-ji + metapodatki
+Alias:
+	Sherlock: samo gremla.
+	Maigret: Poišče tudi gremLa, Gremla, Alma June.
+
+
+Ali ste našli kakšno občutljivo informacijo (npr. e‑poštni naslov, zasebne slike, telefonsko številko)? Kako bi jo lahko oseba zaščitila pred tem, da je javno dostopna?
+	Profilne slike in avatarji. Maigret navaja URL-je slik
+	Povezava različnih identitet / aliasov. Maigret izlušči dodatna imena: gremLa, Gremla, Alma June
+	Povezava uporabniškega imena z adult/porn/dating stranmi. (Chaturbate, Xvideos, AdultFriendFinder …). Že sama informacija "ta vzdevek ima račun na teh straneh" je lahko zelo občutljiva, tudi brez dodatnih podatkov
+
+	Uporaba ločenih e-poštnih naslovov
+	Brisanje ali anonimizacija starih računov
+	Redno OSINT preverjanje
+	Minimalna uporaba pravih osebnih podatkov na javnih profilih

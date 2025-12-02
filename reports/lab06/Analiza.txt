@@ -1,0 +1,19 @@
+Zabeležite, katera gesla so bila najdena in kako hitro.
+
+Najdena gesla:
+ ──(kali㉿kali)-[~]
+└─$ john --show --format=Raw-MD5 hashes.txt
+user1:Password1
+user2:qwerty123
+user4:letmein
+
+
+
+Katerega močnega gesla program ni našel? Zakaj?
+
+Gesla ki ni našel:
+user3:My$Strong&Pass2024
+user5:Summer2024
+
+Za kaj:
+Ni jih našel za to ker niso bila referencirana v rockyou.txt datoteki

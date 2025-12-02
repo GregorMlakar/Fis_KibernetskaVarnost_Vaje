@@ -1,0 +1,15 @@
+Ali bi moral vsak pred objavo slike odstraniti EXIF podatke?
+	Po mojem ne. Kdo bo to vedno delal. Samo v izrednih primerih oz. zelo občutljivih podatkih, mogoče otroci
+
+Kako se lahko zaščitimo pred zlorabo takšnih informacij?
+	Izklop lokacije
+	Razmislit kje objavit sliko
+	Odstranjevanje metapodatkov pred objavo
+
+Ali si že kdaj objavil sliko, ki je vsebovala takšne metapodatke? Kakšen bi bil tvoj odziv danes?
+	Ja, vse slike do sedaj.
+	Sprememba navad
+	Še bolj razmislit, če objavim fotografijo
+	Izklop lokacije
+	Odstranjevanje metapodatkov pred objavo
+	

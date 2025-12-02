@@ -1,0 +1,17 @@
+Katere informacije so bile najlažje najdene? Katere je bilo najtežje najti?
+	Najlažje so bile najdene javno dostopne uporabniške strani z vzdevkom gremla na dobro podprtih platformah: GitHub, Reddit, TikTok, Duolingo, ...Za takšne strani imata Sherlock in Maigret že pripravljene URL-vzorce.
+
+
+Kako bi vi sami prilagodili svoje vedenje na spletu, potem ko ste izvedli to vajo?
+	Za različne tipe računov bi uporabljal ločene e-poštne naslove
+	Pri novih registracijah bi vpisoval čim manj osebnih podatkov
+	Občasno bi naredil OSINT preizkus
+
+Ali menite, da je uporaba OSINT orodij etično sporna? V katerih primerih je upravičena?
+	Ne, če upoštevam da uporabljam za:
+		Samopreizkus
+		Varnostno testiranje z dovoljenjem
+		Raziskave v javnem interesu
+	Da, če uporabljam za namene:
+		Diskriminacija in profiliranje posameznikov
+		Masovni nadzor brez realne potrebe in nadzora

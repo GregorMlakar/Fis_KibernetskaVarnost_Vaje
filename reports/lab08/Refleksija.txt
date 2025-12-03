@@ -1,0 +1,32 @@
+Kako bi razložili razliko med nešifriranim (npr. SMTP brez TLS na portu 1025) in šifriranim sporočilom (SMTP s STARTTLS na portu 587)? Katere podatke lahko napadalec vidi v prvem primeru in katere v drugem?
+	Če v Wiresharku gledaš promet med nešifriranim sporočilom, potem napadalec vidi praktično vse:
+		ukaze in odgovore
+		naslove pošiljatelja in prejemnika
+		zadevo
+		sporočilo
+	Če v Wiresharku gledaš promet med šifriranim sporočilom, potem napadalec še vedno vidi:
+		IP naslov pošiljatelja in strežnika
+		čas in približno velikost prenesenih paketov
+
+Pri nešifriranem sporočilu lahko napadalec normalno bere mail, pri šifriranim sporočilu pa napadalec vidi sam metapodatke na nivoju omrežja, ne pa vsebine.
+
+
+
+Zakaj je preverjanje fingerprinta pri PGP za preprečitev man-in-the-middle napada?
+	PGP temelji na javnih ključih. Fingerprint je kratek hash, izračunan iz javnega ključa.
+	Ker je hash funkcijo praktično nemogoče ponarediti tako, da bi drug ključ dal enak fingerprint, napadalec ne more zamenjati ključa, ne da bi se fingerprint spremenil. Zato preverjanje fingerprinta razbije tiho podtikanje lažnega javnega ključa.
+
+
+
+Kdaj bi uporabili PGP in kdaj Signal?
+	PGP: komunikacija prek e-pošte, podpisovanje in šifriranje dokumentov, datotek
+	Signal: za redno, vsakodnevno, zelo občutljivo komunikacijo (sporočila, klici in video, zelo občutljivo komunikacijo,...)
+
+
+
+Ali menite, da bi moralo biti end-to-end šifriranje privzeto v vseh komunikacijskih aplikacijah? Utemeljite odgovor z vidika varnosti, zasebnosti in uporabniške izkušnje.
+	Z vidika varnosti in zasebnosti bi rekel, da vedno
+	Razlog ker:
+		ščiti pred notranjimi zlorabami pri ponudniku (administratorji ne morejo brati vsebine),
+		ščiti pred množičnim nadzorom in zbiranjem podatkov,
+		strežniki ponudnika ne vidijo vsebine, zato je manj zanimiva tarča za napade,

@@ -1,0 +1,16 @@
+Katere značilnosti so značilne za phishing strani (npr. napačen URL)?
+	Napačen ali "čuden" URL
+	Težave s certifikatom / HTTPS
+	Vizualne in funkcionalne napake
+	Preveč direktno zbiranje podatkov
+
+Kako bi se zaščitili pred takšnim napadom?
+	Vedno preverimo URL	
+	Dvostopenjska avtentikacija (2FA)
+	Posodobljen brskalnik in OS
+
+Zakaj moderne strani otežujejo takšne napade?
+	Napredni načini prijave - OAuth
+	Dodatne zaščite na strani strežnika - Preverjanje CSRF tokenov, posebni headerji, captcha, dodatna vprašanja
+	Varnostni sistemi pri ponudnikih - Detekcija neobičajnih prijav (IP, država, neznana naprava), obvestila uporabniku o novi prijavi / novi napravi
+	Ozaveščanje uporabnikov - Banke, večje platforme in brskalniki ves čas opozarjajo na phishing

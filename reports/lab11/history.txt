@@ -1,0 +1,15 @@
+  130  ssh bandit0@bandit.labs.overthewire.org -p 2220
+  131  ssh bandit1@bandit.labs.overthewire.org -p 2220
+  132  ssh bandit0@bandit.labs.overthewire.org -p 2220
+  133  ssh bandit1@bandit.labs.overthewire.org -p 2220
+  134  ssh bandit2@bandit.labs.overthewire.org -p 2220
+  135  ssh bandit3@bandit.labs.overthewire.org -p 2220
+  136  ssh bandit4@bandit.labs.overthewire.org -p 2220
+  137  ssh bandit5@bandit.labs.overthewire.org -p 2220
+  138  ssh bandit6@bandit.labs.overthewire.org -p 2220
+  139  ssh bandit7@bandit.labs.overthewire.org -p 2220
+  140  ssh bandit8@bandit.labs.overthewire.org -p 2220
+  141  ssh bandit9@bandit.labs.overthewire.org -p 2220
+  142  ssh bandit10@bandit.labs.overthewire.org -p 2220
+  143  ssh bandit11@bandit.labs.overthewire.org -p 2220
+  144  ssh bandit12@bandit.labs.overthewire.org -p 2220

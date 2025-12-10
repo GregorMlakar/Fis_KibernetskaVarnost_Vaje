@@ -1,0 +1,38 @@
+   91  cd ..
+   92  cd lab10
+   93  dig hackycorp.com +short
+   94  curl http://51.158.147.132/
+   95  curl -I https://hackycorp.com/
+   96  curl -I https://hackycorp.com/blablabla
+   97  dig TXT key.z.hackycorp.com +short\n
+   98  dig -t SOA z.hackycorp.com
+   99  dig AXFR z.hackycorp.com @z.hackycorp.com
+  100  dig AXFR z.hackycorp.com @ns1.z.hackycorp.com
+  101  dig AXFR z.hackycorp.com
+  102  dig -t SOA z.hackycorp.com
+  103  dig AXFR z.hackycorp.com @z.hackycorp.com
+  104  git clone https://github.com/hackycorp/repo9.git
+  105  for file in *; do cat $file; done
+  106  cd repo9
+  107  for file in *; do cat $file; done
+  108  git log -- KEY.txt git show COMMIT_HASH:KEY.txt
+  109  git log -- KEY.txt
+  110  git show 397a2a64461258112821015221a9b33220ece058:KEY.txt
+  111  git clone https://github.com/hackycorp/repo0a.git
+  112  cd ..
+  113  git clone https://github.com/hackycorp/repo0a.git
+  114  git log --oneline
+  115  cd repo0a
+  116  git log --oneline
+  117  git log --oneline --grep=key -i
+  118  git show 397a2a64461258112821015221a9b33220ece058:KEY.txt
+  119  git show 485c94a
+  120  git show 485c94acf9410f285e54cd97938bb28b8c9c2dff
+  121  dig -c chaos -t txt VERSION.BIND @z.hackycorp.com
+  122  ls
+  123  cd ..
+  124  ls
+  125  chmod +x script1.sh
+  126  ./script1.sh
+  127  chmod +x script2.sh
+  128  ./script2.sh

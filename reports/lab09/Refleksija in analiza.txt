@@ -1,0 +1,15 @@
+Kako bi zaščitili SSH strežnik pred brute-force napadi?
+	Onemogočili bi prijavo z geslom in dovolili samo prijavo z SSH ključi.
+	Onemogočili bi root prijavo.
+	Omejili bi SSH samo na določene IP-je, uporabnike ali skupine.
+
+Katere dodatne ukrepe (npr. omejitve po številu prijav, uporaba javno-zasebnih ključev, firewall) bi priporočili?
+	Blokada IP po xxx napačnih prijavah.
+	Dovoli bi SSH samo z zaupanja vrednih IP-jev.
+	Omeji bi število vzporednih povezav in poskusov prijave.
+	Redno posodabljanje sistema in SSH strežnika.
+
+Kako se spremeni rezultat, če uporabimo zelo močno geslo?
+	Hydra oz. brute-force z običajnimi slovarji skoraj zagotovo ne najde gesla.
+	Čas za razbitje postane praktično neizvedljiv.
+	V praksi napadalec raje poišče lažjo tarčo ali drugo vrsto napada.

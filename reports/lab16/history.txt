@@ -1,0 +1,20 @@
+  204  echo "API_KEY=super-secret-key-123\nDB_PASSWORD=VeryStrongPassword" > secrets.env
+  205  gpg -c secrets.env
+  206  rm secrets.env
+  207  gpg secrets.env.gpg
+  208  gpg -d secrets.env.gpg
+  209  gpg --encrypt --recipient test secrets-asi.env
+  210  gpg --encrypt --recipient test secrets.env
+  211  gpg --encrypt --recipient test secrets2.env
+  212  cat secrets.env
+  213  cat secrets.env.gpg
+  214  cat secrets2.env
+  215  cat secrets2.env.gpg
+  216  source secrets.env
+  217  echo $API_KEY
+  218  echo $DB?PASSWORD
+  219  echo $DB_PASSWORD
+  220  unset API_KEY
+  221  unset DB_PASSWORD
+  222  echo $DB_PASSWORD
+  223  echo $API_KEY

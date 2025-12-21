@@ -1,0 +1,4 @@
+To: peer@example.com
+From: student@example.com
+Date: Wed Dec 17 10:53:16 AM EST 2025
+Secret message: Zaupno sporocilo

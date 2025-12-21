@@ -1,0 +1,22 @@
+Zakaj GPG ne zazna MITM napada samodejno?
+	Ker ne more sam vedeti, kateri javni ključ je res od te osebe, manjka preverjena identiteta ključa.
+
+Kaj je fingerprint in zakaj je pomemben?
+	Fingerprint je kratek "odtis" (hash) javnega ključa. 
+	Pomemben je za zanesljivo preverjanje, da imaš pravi ključ
+
+Zakaj e-pošta ni varen kanal za izmenjavo ključev?
+	Ker jo je mogoče prestreči oz. spremeniti ali ponarediti pošiljatelja, zato ti lahko podtaknejo napačen ključ.
+
+Kako Web of Trust zmanjša tveganje MITM napada?
+	Web of Trust zmanjša MITM, ker zaupanja vredni ljudje podpisujejo ključe, lažen ključ težje dobi verodostojne podpise.
+
+Razložite razliko med:
+- zaupanjem (trust),
+	koliko zaupaš lastniku ključa, če je zanesljiv pri potrjevanju tujih ključev. To vpliva, ali bo GPG sprejel tudi ključe, ki jih je ta oseba podpisala.
+
+- podpisanim ključem (signed key),
+	javni ključ, ki ga je nekdo kriptografsko podpisal (potrdil), da pripada določeni osebi/identiteti. Podpis je dokaz, da je nekdo preveril, ne pa nujno, da mu ti zaupaš.	
+
+- ultimativnim zaupanjem (ultimate trust).
+	najvišja stopnja zaupanja, običajno samo za tvoj lastni ključ. Pomeni, da GPG tvoje podpise obravnava kot popolnoma zanesljive pri potrjevanju drugih ključev.

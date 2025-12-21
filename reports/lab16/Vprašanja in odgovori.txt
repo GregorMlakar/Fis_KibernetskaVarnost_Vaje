@@ -1,0 +1,13 @@
+Zakaj skrivnosti ne sodijo v izvorno kodo?
+	Ker se koda pogosto deli (repo, CI logi, forki), verzionira in kopira. 
+	Enkrat "commitana" skrivnost je težko odstranljiva iz zgodovine, poveča tveganje uhajanja in zlorabe.
+
+Kakšna je razlika med simetričnim in asimetričnim šifriranjem skrivnosti?
+	Simetrično: isti ključ za šifriranje in dešifriranje. Hitro, ampak problem je varna distribucija tega ključa.
+	Asimetrično: šifriraš z javnim ključem, dešifriraš z zasebnim ključem. Lažja delitev javnega ključa, zasebni ključ ostane pri lastniku.
+
+Kaj se zgodi, če izgubimo zasebni ključ?
+	Sporočila šifrirana na ta ključ, so praviloma nepovratno izgubljene (dešifriranje je skoraj nemogoče). Prav tako ne moreš več podpisovati kot ta identiteta. Običajno sledi preklic ključev.
+
+Kako bi to rešili v večjem podjetju?
+	Uporaba centralnega managerja kot npr.: Azure Key Vault.

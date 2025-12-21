@@ -1,0 +1,16 @@
+Razlika med šifriranjem in podpisom
+	Šifriranje: 
+		Cilj je zaupnost. Sporočilo zakrijemo tako, da jo lahko prebere samo tisti, ki ima pravi ključ.
+	Podpisovanje:
+		Cilj je avtentičnost, integriteta, neizpodbitnost. S tem dokažemo kdo je vsebino ustvaril in da se vsebina od podpisa ni spremenila.
+
+Vloga javnega in zasebnega ključa
+	Pri šifriranju:
+		Prejemnikov javni ključ uporabiš za šifriranje.
+		Prejemnikov zasebni ključ se uporabi za dešifriranje.
+	Pri podpisovanju:
+		Pošiljateljev zasebni ključ uporabiš za ustvarjanje podpisa.
+		Pošiljateljev javni ključ se uporabi za preverjanje podpisa.
+
+Kaj se zgodi ob spremembi šifrirane datoteke
+	Če spremenimo šifrirano datoteko bo dešifriranje praviloma spodletelo ali dalo pokvarjeno vsebino

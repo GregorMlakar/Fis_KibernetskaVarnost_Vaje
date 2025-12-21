@@ -1,0 +1,33 @@
+  146  sudo apt update
+  147  sudo apt install gnupg
+  148  gpg /v
+  149  gpg -v
+  150  gpg --version
+  151  gpg --full-generate-key
+  152  gpg --list-keys
+  153  gpg --armor --export test > student_pubkey.asc
+  154  mkdir vaja14
+  155  ls vaja14
+  156  cd vaja14
+  157  cat student_pubkey.asc
+  158  gpg --import robikv_pubkey.asc
+  159  gpg --list-keys
+  160  echo "To: peer@example.com\nFrom: student@example.com\nDate: $(date)\nSecret message: Zaupno sporocilo" > message.txt
+  161  gpg --encrypt --sign --armor --recipient test message.txt
+  162  gpg --decrypt message.txt.asc > decrypted_message.txt
+  163  cat decrypted_message.txt
+  164  history
+  165  gpg --full-generate-key
+  166  gpg --list-keys
+  167  echo "To: peer@example.com\nFrom: student@example.com\nDate: $(date)\nSecret message: Zaupno sporocilo" > message2.txt
+  168  gpg --encrypt --sign --armor --recipient test2 message2.txt
+  169  cat message2.txt.asc
+  170  gpg --decrypt message2.txt.asc > decrypted_message2.txt
+  171  cat decrypted_message2.txt
+  172  gpg --gen-revoke test2 > revoke.asc
+  173  gpg --list-keys
+  174  gpg --fingerprint
+  175  gpg --clearsign message.txt
+  176  cat message clearsign
+  177  gpg --verify message.txt.asc
+  178  gpg --verify message2.txt.asc

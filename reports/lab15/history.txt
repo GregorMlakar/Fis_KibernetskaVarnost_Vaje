@@ -1,0 +1,16 @@
+  182  mkdir lab15
+  183  cd mab15
+  184  cd lab15
+  185  gpg --full-generate-key
+  186  gpg --list-keys
+  187  gpg --fingerprint alice@example.com\ngpg --fingerprint bob@example.com\ngpg --fingerprint mallory@example.com
+  188  gpg --armor --export mallory@example.com > bob_pubkey.asc
+  189  gpg --import bob_pubkey.asc
+  190  gpg --list-keys
+  191  gpg --fingerprint alice@example.com\ngpg --fingerprint bob@example.com\ngpg --fingerprint mallory@example.com
+  192  echo "Zaupno sporocilo za Boba" > secret.txt
+  193  gpg --encrypt --recipient bob@example.com secret.txt
+  194  cat secret.txt.gpg
+  195  gpg --decrypt secret.txt.gpg
+  196  gpg --fingerprint bob@example.com
+  197  gpg --edit-key bob@example.com

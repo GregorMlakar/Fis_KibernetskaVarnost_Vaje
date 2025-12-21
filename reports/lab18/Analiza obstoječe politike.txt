@@ -1,0 +1,15 @@
+Katere glavne dele vsebuje (cilji, področja, postopki)?
+	Opisan je krovni dokument, ki opisuje kibernetsko varnost oz. informacijsko varnost v podjetju, ki velja za vse zaposlene in zunanje akterje. Odgovorni so vsi akterji in le to morejo tudi spoštovat. Opredeljene so ranljivosti, grožnje, upravljanje in priporočila.
+
+Kako so opredeljene odgovornosti zaposlenih?
+	Zaposleni imajo navedene dolžnosti: spoštovanje politik/operativnih navodil, varovanje zaupnih informacij (tudi po prenehanju dela), prijava kršitev, varovanje intelektualne lastnine, omejitve izjav javnosti.
+
+Ali pokriva vse ključne grožnje?
+	Pokriva velik spekter kot: fizične grožnje (požar, voda, malomarnost, ...), organizacijsko-tehnične kontrole (dostopi, kopije, ločena okolja, spremembe, ...), je pa verjetno še kaj, ki se je pozabilo in se bo naknadno dopolnjevalo
+
+Je napisana jasno in razumljivo za zaposlene?
+	Struktura je pregledna (kazalo, razdelitev po politikah), veliko je konkretnih pravil
+	Dokument pa je obsežen in uporablja precej terminologije. Se slabo znajdem.
+
+Kaj bi izboljšali?
+	Dodati 1–2 strani povzetka za zaposlene (kaj moram delati vsak dan: gesla, phishing, delo na daljavo, prijava incidenta).

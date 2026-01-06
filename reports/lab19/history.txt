@@ -1,0 +1,19 @@
+  226  mkdir lab19
+  227  cd lab19
+  228  cat > install.sh
+  229  ls
+  230  install.sh
+  231  ./install.sh
+  232  sudo chmod +x install.sh
+  233  ./install.sh
+  234  sha256sum install.sh > install.sh.sha256
+  235  gpg --full-generate-key
+  236  gpg --list-keys
+  237  gpg --detach-sign install.sh.sha256 
+  238  gpg --local-user kali --detach-sign install.sh.sha256
+  239  gpg --local-user lab19 --detach-sign install.sh.sha256
+  240  sha256sum -c install.sh.sha256
+  241  gpg --verify install.sh.sha256.sig install.sh.sha256
+  242  echo "echo NAPAD" >> install.sh
+  243  sha256sum -c install.sh.sha256
+  244  ./install.sh 
